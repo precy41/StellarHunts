@@ -10,7 +10,6 @@ import { LocalStrategy } from './strategies/local.strategy';
 import { RolesGuard } from './guards/roles.guard';
 import { JwtAuthGuard } from './guards/jwt-auth.guard';
 import { APP_GUARD } from '@nestjs/core';
-import { AdminRole } from './admin-role.enum';
 
 @Module({
   imports: [
